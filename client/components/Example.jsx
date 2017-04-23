@@ -18,8 +18,8 @@ class Example extends React.Component {
         this.state.decoratedText = text.replace(new RegExp(this.props.highlightedText,"g"), "<span class=\"highlightme\">" + this.props.highlightedText  + "</span>");  
         
         return (
-            <div className="media-body">    
-                <div className="well well-sm">                
+            <div className="container">    
+                <div className="well row col-xs-8">                
                 <div dangerouslySetInnerHTML={{__html: this.state.decoratedText}} />               
                 <p></p>
                 </div>
