@@ -9,7 +9,7 @@ class MenuItem extends React.Component {
 
     render(){
         return (
-            <li value={this.props.menuItem} onClick={this.onListItemClick.bind(this, this.props.menuItem.Id)}>{this.props.menuItem.Text}</li>
+            <li><a href="#" onClick={this.onListItemClick.bind(this, this, this.props.menuItem.Id)}>{this.props.menuItem.Text} </a></li>            
         );                    
     }
 };

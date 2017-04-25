@@ -22,6 +22,7 @@ class App extends React.Component {
   }
 
   getActiveMenu(menuItem){
+        console.log('I got clicked ' + menuItem);
         this.setState({
             activeMenu : menuItem
         })          
