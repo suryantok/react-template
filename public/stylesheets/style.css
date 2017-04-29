@@ -38,3 +38,27 @@ a {
     background: #FF384E;
 }
 .highlightme { background-color:#FFFF00; }
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+
+ul.header li {
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {  
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.active {
+  background-color: #0099FF;
+}

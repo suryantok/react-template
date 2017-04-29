@@ -1,11 +1,11 @@
-// TODO: Render the `App` component to the DOM
+
+var { Router, Route, IndexRoute, IndexLink, hashHistory, Link } = ReactRouter;
 
 ReactDOM.render(
-  <App/>, document.getElementById('app')
-);
+<Router history={hashHistory}>
+  <Route path="/" component={App}>
+    <IndexRoute component={Home}/>
+    <Route path="other" component={Other} />
+  </Route>
+</Router>, document.getElementById('mainapp') );
 
-
-// ReactDOM.render(
-//   <App/>,
-//   document.getElementById('app')
-// );
