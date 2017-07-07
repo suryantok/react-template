@@ -1,25 +1,32 @@
-@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin-top: 30px;
-}
-
-a {
-  color: #00B7FF;
-}
-
-.label {
-  margin: 0px 3px;
-}
-
-.spacer {
-    margin-top: 40px; /* define margin as you see fit */
-}
-.top-buffer { 
-  margin-top: 30px;
-  margin-bottom: 30px
 }
 
 .col1{
@@ -48,7 +55,7 @@ ul.header li {
   list-style-type: none;
   margin: 0;
 }
-ul.header {  
+ul.header {
   padding: 0;
 }
 ul.header li a {
